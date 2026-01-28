@@ -1,0 +1,13 @@
+# Visual Studio / VS Code
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Node / npm (якщо буде)
+node_modules/
+
+# Інші тимчасові файли
+*.log
+.DS_Store
