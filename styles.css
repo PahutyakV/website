@@ -113,6 +113,10 @@ body {
   border: 1px solid var(--border);
   border-radius: 12px;
   padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
@@ -140,6 +144,7 @@ body {
 .card-actions {
   display: flex;
   gap: 16px;
+  margin-top: auto;
 }
 
 .card-actions a {
